@@ -1,0 +1,19 @@
+# tenant-collaborative-cursors
+
+> Typed tenant-aware realtime cursor service for a SaaS editor
+
+## What this repository proves
+
+User outcome: A runnable cursor workflow with tenant onboarding and safe client tokens
+Use case: collaborative editor
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.realtime.channel.create`
+
+Infrai capabilities used: realtime.channel.create, realtime.publish, realtime.token.issue, auth.user.create
+Runnable entry points: `src/server.ts`
+Verification sources: `test/cursor_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

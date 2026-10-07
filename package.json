@@ -1,0 +1,1 @@
+{"name":"collab-cursor-saas","private":true,"type":"module","scripts":{"typecheck":"tsc --noEmit","test":"node --experimental-strip-types test/cursor_service.test.ts","start":"node --experimental-strip-types src/server.ts"},"dependencies":{"zod":"^3.23.8"},"devDependencies":{"typescript":"^5.6.3"}}
